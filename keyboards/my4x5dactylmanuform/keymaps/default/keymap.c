@@ -3,6 +3,18 @@
 
 #include QMK_KEYBOARD_H
 
+#define SFT_ESC  SFT_T(KC_ESC)
+#define CTL_BSPC CTL_T(KC_BSPC)
+#define ALT_SPC  ALT_T(KC_SPC)
+#define SFT_ENT  SFT_T(KC_ENT)
+
+#define KC_ML KC_MS_LEFT
+#define KC_MR KC_MS_RIGHT
+#define KC_MU KC_MS_UP
+#define KC_MD KC_MS_DOWN
+#define KC_MB1 KC_MS_BTN1
+#define KC_MB2 KC_MS_BTN2
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // Adapted from handwired/dactyl_manuform/4x5/keymaps/default
     [0] = LAYOUT_ortho_5x4(
