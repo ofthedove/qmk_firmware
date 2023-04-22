@@ -17,7 +17,7 @@
         "rows": ["GP7", "GP8", "GP9", "GP6"]
     },
     "split": {
-        "soft_serial_pin": "GP16",
+        "enabled": true,
         "main": "left",
         "matrix_pins": {
           "right": {
@@ -56,7 +56,7 @@
                 { "label": "C",         "matrix": [2, 2], "x": 2,  "y": 2 },
                 { "label": "V",         "matrix": [2, 3], "x": 3,  "y": 2 },
                 { "label": "B",         "matrix": [2, 4], "x": 4,  "y": 2 },
-                { "label": "LOWEER",    "matrix": [2, 5], "x": 5,  "y": 5 },
+                { "label": "RAISE",     "matrix": [2, 5], "x": 5,  "y": 5 },
                 { "label": "[",         "matrix": [3, 1], "x": 1,  "y": 3 },
                 { "label": "]",         "matrix": [3, 2], "x": 2,  "y": 3 },
                 { "label": "Shift",     "matrix": [3, 3], "x": 3,  "y": 4 },
