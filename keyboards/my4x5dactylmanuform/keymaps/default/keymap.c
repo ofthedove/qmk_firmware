@@ -3,10 +3,10 @@
 
 #include QMK_KEYBOARD_H
 
-#define SFT_ESC  SFT_T(KC_ESC)
-#define CTL_BSPC CTL_T(KC_BSPC)
-#define ALT_SPC  ALT_T(KC_SPC)
-#define SFT_ENT  SFT_T(KC_ENT)
+#define CTL_ESC  CTL_T(KC_ESC)
+#define SFT_BSPC SFT_T(KC_BSPC)
+#define SFT_SPC  SFT_T(KC_SPC)
+#define ALT_ENT  ALT_T(KC_ENT)
 
 #define KC_ML KC_MS_LEFT
 #define KC_MR KC_MS_RIGHT
@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_A,       KC_S,       KC_D,       KC_F,       KC_G,             KC_H,       KC_J,       KC_K,       KC_L,       KC_SCLN,
       KC_Z,       KC_X,       KC_C,       KC_V,       KC_B,             KC_N,       KC_M,       KC_COMM,    KC_DOT,     KC_QUOT,
                   KC_LBRC,    KC_RBRC,                                                          KC_MINS,    KC_EQL,
-                                          SFT_ESC,    CTL_BSPC,         ALT_SPC,    SFT_ENT,
+                                          CTL_ESC,    SFT_BSPC,         SFT_SPC,    ALT_ENT,
                                           KC_TAB,     KC_HOME,          KC_END,     KC_DEL,
                                           MO(1),      KC_GRV,           KC_LGUI,    MO(2)
    ),
