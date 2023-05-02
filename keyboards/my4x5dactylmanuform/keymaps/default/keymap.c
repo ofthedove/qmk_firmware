@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                   KC_LBRC,    KC_RBRC,                                                          KC_MINS,    KC_EQL,
                                           CTL_ESC,    SFT_BSPC,         SFT_SPC,    ALT_ENT,
                                           KC_TAB,     KC_HOME,          KC_END,     KC_DEL,
-                                          MO(1),      KC_LGUI,          KC_GRV,     MO(2)
+                                          MO(2),      KC_LGUI,          KC_GRV,     MO(1)
    ),
 
    [1] = LAYOUT_ortho_5x4(
