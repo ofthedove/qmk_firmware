@@ -12,6 +12,9 @@
         "mousekey": true,
         "nkro": true
     },
+    "tapping": {
+        "hold_on_other_key_press": true
+    },
     "matrix_pins": {
         "cols": ["GP11", "GP12", "GP13", "GP14", "GP15", "GP10"],
         "rows": ["GP7", "GP8", "GP9", "GP6"]
