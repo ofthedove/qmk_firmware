@@ -4,7 +4,7 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [Andrew Combs](https://github.com/Andrew Combs)
+* Keyboard Maintainer: [Andrew Combs](https://github.com/ofthedove)
 * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
