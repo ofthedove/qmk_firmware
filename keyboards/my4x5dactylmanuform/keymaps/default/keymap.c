@@ -15,6 +15,16 @@
 #define KC_MB1 KC_MS_BTN1
 #define KC_MB2 KC_MS_BTN2
 
+// Uncomment to enable debugging
+// Also uncomment CONSOLE_ENABLE = yes in rules.mk
+// void keyboard_post_init_user(void) {
+//    // Customise these values to desired behaviour
+//    debug_enable=true;
+//    debug_matrix=true;
+//    //debug_keyboard=true;
+//    //debug_mouse=true;
+//  }
+
 /* Blank Map for future copy-pasting
       _______,    _______,    _______,    _______,    _______,          _______,    _______,     _______,   _______,    _______,
       _______,    _______,    _______,    _______,    _______,          _______,    _______,     _______,   _______,    _______,
