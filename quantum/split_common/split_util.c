@@ -201,10 +201,6 @@ void split_pre_init(void) {
     split_config.master = is_keyboard_master_impl();
     split_config.left   = is_keyboard_left_impl();
 
-#if defined(SPLIT_LEFT_IS_MAIN_IGNORE_USB)
-    split_config.master = split_config.left;
-#endif
-
     isLeftHand = is_keyboard_left(); // TODO: Remove isLeftHand
 
 #if defined(RGBLIGHT_ENABLE) && defined(RGBLED_SPLIT)

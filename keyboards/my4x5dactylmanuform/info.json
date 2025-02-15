@@ -21,7 +21,6 @@
     },
     "split": {
         "enabled": true,
-        "main": "left",
         "matrix_pins": {
           "right": {
             "cols": ["GP5", "GP4", "GP3", "GP2", "GP1", "GP0"],
